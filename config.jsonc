@@ -16,7 +16,7 @@
         "break",
         {
             "type": "custom",
-            "format": "Greetings from\u001b[94m Archimedes\u001b[97m.",
+            "format": "Greetings from \u001b[94mArchimedes\u001b[97m.",
         },
         {
             "type": "custom",
