@@ -27,27 +27,27 @@
         {
             "type": "host",
             "key": " PC",
-            "keyColor": "green"
+            "keyColor": "blue"
         },
         {
             "type": "cpu",
             "key": "│ ├ ",
             "showPeCoreCount": true,
-            "keyColor": "green" },
+            "keyColor": "light_blue" },
         {
             "type": "gpu",
             "key": "│ ├󰍛 ",
-            "keyColor": "green"
+            "keyColor": "light_blue"
         },
         {
             "type": "memory",
             "key": "│ ├󰍛 ",
-            "keyColor": "green"
+            "keyColor": "light_blue"
         },
         {
             "type": "disk",
             "key": "└ └ ",
-            "keyColor": "green"
+            "keyColor": "light_blue"
         },
         //{
             //"type": "custom",
@@ -66,7 +66,7 @@
         {
             "type": "os",
             "key": "\udb82\udcc7 OS",
-            "keyColor": "light_blue"
+            "keyColor": "blue"
         },
         {
             "type": "kernel",
@@ -92,23 +92,23 @@
         {
             "type": "lm",
             "key": "│ ├ ",
-            "keyColor": "blue"
+            "keyColor": "light_blue"
         },
         {
             "type": "wm",
             "key": "│ ├ ",
-            "keyColor": "blue"
+            "keyColor": "light_blue"
         },
         {
             "type": "wmtheme",
             "key": "│ ├󰉼 ",
-            "keyColor": "blue"
+            "keyColor": "light_blue"
         },
         {
             "type": "gpu",
             "key": "└ └󰍛 ",
             "format": "{3}",
-            "keyColor": "blue"
+            "keyColor": "light_blue"
         },
         //{
             //"type": "custom",
@@ -122,13 +122,13 @@
         {
             "type": "command",
             "key": "  OS Age ",
-            "keyColor": "magenta",
+            "keyColor": "light_blue",
             "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
             "type": "uptime",
             "key": "  Uptime ",
-            "keyColor": "magenta"
+            "keyColor": "light_blue"
         },
         {
             "type": "custom",
