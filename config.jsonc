@@ -18,7 +18,6 @@
             "type": "title",
             "color": {
                 "user": "yellow",
-                "at": "white",
                 "host":"light_blue",
             }
         },
