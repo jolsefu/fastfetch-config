@@ -6,9 +6,9 @@
         //"type": "kitty",
         "height": 15,
         "width": 10,
-        "color": {"1": "blue", "2": "light_blue"},
+        "color": {"1": "light_blue", "2": "yellow"},
         "padding": {
-            "top": 3,
+            "top": 1,
             "left": 3
         }
     },
@@ -27,7 +27,7 @@
         {
             "type": "host",
             "key": " PC",
-            "keyColor": "blue"
+            "keyColor": "yellow"
         },
         {
             "type": "cpu",
@@ -66,7 +66,7 @@
         {
             "type": "os",
             "key": "\udb82\udcc7 OS",
-            "keyColor": "blue"
+            "keyColor": "yellow"
         },
         {
             "type": "kernel",
@@ -87,7 +87,7 @@
         {
             "type": "de",
             "key": " DE",
-            "keyColor": "blue"
+            "keyColor": "yellow"
         },
         {
             "type": "lm",
@@ -115,25 +115,26 @@
             //"format": "\u001b[90m└────────────────────────────────────────────────────┘"
         //},
         //"break",
-        {
-            "type": "custom",
-            "format": "\u001b[33m┌────────────────────Uptime / Age────────────────────┐"
-        },
-        {
-            "type": "command",
-            "key": "  OS Age ",
-            "keyColor": "light_blue",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-        },
-        {
-            "type": "uptime",
-            "key": "  Uptime ",
-            "keyColor": "light_blue"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[33m└────────────────────────────────────────────────────┘"
-        },
+        //{
+            //"type": "custom",
+            //"format": "\u001b[33m┌────────────────────Uptime / Age────────────────────┐"
+        //},
+        //{
+            //"type": "command",
+            //"key": "  OS Age ",
+            //"keyColor": "light_blue",
+            //"text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        //},
+        //{
+            //"type": "uptime",
+            //"key": "  Uptime ",
+            //"keyColor": "light_blue"
+        //},
+        //{
+            //"type": "custom",
+            //"format": "\u001b[33m└────────────────────────────────────────────────────┘"
+        //},
         "break",
+        "break"
     ]
 }
